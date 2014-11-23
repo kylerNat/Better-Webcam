@@ -93,11 +93,9 @@
     <Image Include="Shrubbery64x64.png" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="libfreetype-6.dll">
+    <None Include="libfreetype-6.dll">
       <FileType>Document</FileType>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
-      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</DeploymentContent>
-    </EmbeddedResource>
+    </None>
     <None Include="libjpeg-9.dll" />
     <None Include="libpng16-16.dll" />
     <None Include="libtiff-5.dll" />
