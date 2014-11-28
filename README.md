@@ -9,8 +9,4 @@ Download and unzip https://github.com/kylerNat/Better-Webcam/blob/master/Release
 
 Installation(OS X):
 
-a) Download the necessary source files (and probably the SDL 2.0 development library for OS X) and figure out how to build it.
-
-OR
-
-b) Wait for me to do option a.
+Download https://github.com/kylerNat/Better-Webcam/blob/master/Release%20Builds/Webcam%20Client.app?raw=true. Move to you Applications Folder.
