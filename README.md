@@ -9,4 +9,4 @@ Download and unzip https://github.com/kylerNat/Better-Webcam/blob/master/Release
 
 Installation(OS X):
 
-Download and unzip https://github.com/kylerNat/Better-Webcam/blob/master/Release%20Builds/Webcam%20Client%20Mac%20OSX%20v1_01.zip?raw=true. Move "Webcam Client.app" to you Applications Folder.
+Download and unzip https://github.com/kylerNat/Better-Webcam/blob/master/Release%20Builds/Webcam%20Client%20Mac%20OSX%20v1_01.zip?raw=true. Move "Webcam Client.app" to your Applications Folder.
