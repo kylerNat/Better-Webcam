@@ -11,8 +11,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{E0BEC961-7B41-4924-83AC-DD96ADB77489}</ProjectGuid>
-    <RootNamespace>Client</RootNamespace>
+    <ProjectGuid>{DD6F2D29-CC7F-4783-8F2D-B3B3A9C27842}</ProjectGuid>
+    <RootNamespace>Project1</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -44,12 +44,9 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>C:\Users\Kyler\Documents\GitHub\Better-Webcam\sdl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <PreprocessorDefinitions>win32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <SubSystem>Windows</SubSystem>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -59,61 +56,14 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>C:\Users\Kyler\Documents\GitHub\Better-Webcam\sdl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
-      <SubSystem>Windows</SubSystem>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Main.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <Library Include="..\..\sdl\lib\x86\SDL2.lib" />
-    <Library Include="..\..\sdl\lib\x86\SDL2main.lib" />
-    <Library Include="..\..\sdl\lib\x86\SDL2_image.lib" />
-    <Library Include="..\..\sdl\lib\x86\SDL2_net.lib" />
-    <Library Include="..\..\sdl\lib\x86\SDL2_ttf.lib" />
-  </ItemGroup>
-  <ItemGroup>
-    <Font Include="arial.ttf">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
-    </Font>
-    <Font Include="LiberationMono-Regular.ttf">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
-    </Font>
-  </ItemGroup>
-  <ItemGroup>
-    <Image Include="Shrubbery128.ico" />
-    <Image Include="Shrubbery16.ico" />
-    <Image Include="Shrubbery32.ico" />
-    <Image Include="Shrubbery64.ico" />
-    <Image Include="Shrubbery64x64.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="libfreetype-6.dll">
-      <FileType>Document</FileType>
-    </None>
-    <None Include="libjpeg-9.dll" />
-    <None Include="libpng16-16.dll" />
-    <None Include="libtiff-5.dll" />
-    <None Include="libwebp-4.dll" />
-    <None Include="SDL2.dll">
-      <FileType>Document</FileType>
-    </None>
-    <None Include="SDL2_image.dll" />
-    <None Include="SDL2_net.dll" />
-    <None Include="SDL2_ttf.dll" />
-    <None Include="zlib1.dll" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="resource.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ResourceCompile Include="Client.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
